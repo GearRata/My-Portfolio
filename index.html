@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Import Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <a href="#home" class="logo"><span>Weerawut</span></a>
+
+            <ul class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#project">Project</a>
+                <a href="#contact">contact</a>
+            </ul>
+
+            <i class='bx bx-menu' id="menu"></i>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Home section -->
+    <section id="home">
+        <img src="pic/me.jpg" alt="my picture">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm Weerawut Lukkanatorn</span></h1>
+            <h3><span>frontend Developer and web Developer</span></h3>
+        </div>
+
+        <div class="btn-box">
+            <a href="file/CV.pdf" target="_blank" class="btn">My CV</a>
+            <a href="#contact" class="btn">Contact</a>
+        </div>
+    </section>
+
+    <!-- Section about -->
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+            <p>
+                I am a Computer Engineering student with a strong interest in developing my skills. 
+                I am currently seeking an internship opportunity to gain real-world experience and knowledge in the field. 
+                I am particularly interested in Frontend Development and Web Development. I am adaptable, eager to learn new things, and continuously strive to improve myself. 
+                I aim to apply the experience gained from the internship to further develop my professional career.
+            </p>
+            </div>
+
+            <h2><span>Skills</span></h2>
+
+            <div class="skills">
+                <ul>
+                    <li><span><i class='bx bxs-right-arrow' ></i>C/C++</span></li>
+                    <li><span><i class='bx bxs-right-arrow' ></i>Python</span></li>
+                    <li><span><i class='bx bxs-right-arrow' ></i>HTML</span></li>
+                </ul>
+
+                <ul>
+                    <li><span><i class='bx bxs-right-arrow' ></i>CSS</span></li>
+                    <li><span><i class='bx bxs-right-arrow' ></i>Javascript</span></li>
+
+                </ul>
+            </div>
+        </div>
+        <img src="pic/me.jpg" alt="">
+    </section>
+
+    <section id="project">
+        <h1 class="header"><span>My Project</span></h1>
+
+        <div class="project-container">
+            <div class="box">
+                <div class="heading">
+                    <h1><span>Online Library Management System</span></h1>
+                    <i class='bx bx-link-external'></i>
+                </div>
+                <p>
+                    This mini project is an online library management system designed to streamline the process of managing books. 
+                    Users can register and log in to search for books, view detailed information, and borrow books. Meanwhile, 
+                    administrators have the ability to add, edit, or delete book records, manage user accounts, and monitor borrowing activities. 
+                    The project is developed using HTML, CSS, PHP, and MySQL.
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="heading">
+                    <h1><span>Donkey Car</span></h1>
+                    <i class='bx bx-link-external'></i>
+                </div>
+                <p>
+                    This project focuses on developing an autonomous model vehicle for simulated roads, 
+                    capable of avoiding obstacles and stopping automatically. The system is powered by a Raspberry Pi, 
+                    which controls two webcams and ultrasonic sensors. The webcams are used to detect the road and front-facing objects, 
+                    processed using the MobileNet model for lane tracking and YOLO for object detection. Additionally, 
+                    the system can estimate the distance using ultrasonic sensors to slow down or stop the vehicle automatically when an object is detected ahead.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="header"><span>Contact</span></h1>
+
+        <form action="https://formspree.io/f/mjkynnjw" method="post">
+            <div class="input-box">
+                <span>Full name:</span>
+                <input type="text">
+            </div>
+
+            <div class="input-box">
+                <span>Email:</span>
+                <input type="email">
+            </div>
+
+            <div class="input-box">
+                <span>Phone:</span>
+                <input type="tel">
+            </div>
+
+            <div class="input-box-message">
+                <span>Message:</span>
+                <textarea name="message"></textarea>
+            </div>
+
+            <input type="submit" class="btn-submit" value="send">
+        </form>
+    </section>
+
+    <footer>
+        <div class="col-letf">
+            <div class="col-box">
+                <span><i class='bx bx-location-plus'></i></span>
+                <span>Chiang Mai, Thailand</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bx-phone' ></i></span>
+                <span>0651190012</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bx-envelope' ></i></span>
+                <span>weerawut.luk@gmail.com</span>
+            </div>
+        </div>
+
+        <div class="col-right">
+            <span>About My social</span>
+            
+            <div class="social-icons">
+                <a href="https://github.com/GearRata" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/%E0%B8%99%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B5%E0%B8%A3%E0%B8%A7%E0%B8%B8%E0%B8%92%E0%B8%B4-%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%82%E0%B8%93%E0%B8%B2%E0%B8%98%E0%B8%A3-3752102a4/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100002058530688" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
